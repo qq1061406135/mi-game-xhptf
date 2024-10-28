@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 450001,
+    "Type": 1,
+    "Desc": "冰霜",
+    "res": "Assets/Res/Game/Prefab/Buff/Buff1.prefab",
+    "ContinuedTime": 1.0,
+    "Interval": 0.0,
+    "Value": 0.2
+  },
+  {
+    "Id": 450002,
+    "Type": 2,
+    "Desc": "火焰",
+    "res": "Assets/Res/Game/Prefab/Buff/Buff2.prefab",
+    "ContinuedTime": 3.0,
+    "Interval": 0.5,
+    "Value": 0.5
+  }
+]

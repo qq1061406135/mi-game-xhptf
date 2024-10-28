@@ -1,0 +1,17 @@
+[
+  {
+    "Id": 1001,
+    "Res": "Assets/Res/Game/Prefab/Player.prefab",
+    "Name": "弓箭手",
+    "Type": 1,
+    "CastRes": "Assets/Res/Prefab/Bullet/Buttle_AK.prefab",
+    "AtkType": 1,
+    "Hp": 100,
+    "Atk": 1,
+    "Def": 1,
+    "Speed": 1.0,
+    "AttackRange": 4.0,
+    "Skill": 300001,
+    "UnlockSkillPoints": "0,4,10,16,22"
+  }
+]

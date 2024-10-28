@@ -1,0 +1,51 @@
+[
+  {
+    "Id": 350001,
+    "Name": "青云剑",
+    "Icon": "Assets/Res/Com/Weapon/w_ak.png",
+    "Type": 10,
+    "MaxNum": 1
+  },
+  {
+    "Id": 350002,
+    "Name": "魔剑",
+    "Icon": "Assets/Res/Com/Weapon/w_ak.png",
+    "Type": 10,
+    "MaxNum": 1
+  },
+  {
+    "Id": 350003,
+    "Name": "传说剑",
+    "Icon": "Assets/Res/Com/Weapon/w_ak.png",
+    "Type": 10,
+    "MaxNum": 1
+  },
+  {
+    "Id": 350004,
+    "Name": "飞阳剑",
+    "Icon": "Assets/Res/Com/Weapon/w_ak.png",
+    "Type": 10,
+    "MaxNum": 1
+  },
+  {
+    "Id": 350005,
+    "Name": "烈火剑",
+    "Icon": "Assets/Res/Com/Weapon/w_ak.png",
+    "Type": 10,
+    "MaxNum": 1
+  },
+  {
+    "Id": 350006,
+    "Name": "屠龙刀",
+    "Icon": "Assets/Res/Com/Weapon/w_ak.png",
+    "Type": 10,
+    "MaxNum": 1
+  },
+  {
+    "Id": 350007,
+    "Name": "偃月刀",
+    "Icon": "Assets/Res/Com/Weapon/w_ak.png",
+    "Type": 10,
+    "MaxNum": 1
+  }
+]

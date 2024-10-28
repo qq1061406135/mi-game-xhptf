@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "Name": "第一天",
+    "RewardId": 1000
+  },
+  {
+    "Id": 2,
+    "Name": "第二天",
+    "RewardId": 1001
+  },
+  {
+    "Id": 3,
+    "Name": "第三天",
+    "RewardId": 1002
+  },
+  {
+    "Id": 4,
+    "Name": "第四天",
+    "RewardId": 1003
+  },
+  {
+    "Id": 5,
+    "Name": "第五天",
+    "RewardId": 1004
+  },
+  {
+    "Id": 6,
+    "Name": "第六天",
+    "RewardId": 1005
+  },
+  {
+    "Id": 7,
+    "Name": "第七天",
+    "RewardId": 1006
+  }
+]

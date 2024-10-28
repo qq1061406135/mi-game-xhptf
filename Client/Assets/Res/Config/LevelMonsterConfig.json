@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 200001,
+    "Name": "噬人花",
+    "MonsterId": 100001,
+    "Level": 1,
+    "Hp": 40,
+    "Atk": 6,
+    "Def": 1,
+    "BloRate": 1,
+    "MoveSpeed": 1.0,
+    "AttackSpeed": 1.0,
+    "SpawnPointRound": "2,2",
+    "SpawnPoint": "1,1",
+    "Type": 1
+  },
+  {
+    "Id": 200002,
+    "Name": "蛮荒猪",
+    "MonsterId": 100002,
+    "Level": 1,
+    "Hp": 60,
+    "Atk": 12,
+    "Def": 5,
+    "BloRate": 3,
+    "MoveSpeed": 1.0,
+    "AttackSpeed": 2.0,
+    "SpawnPointRound": "2,2",
+    "SpawnPoint": "1,9",
+    "Type": 1
+  },
+  {
+    "Id": 200003,
+    "Name": "眼魔怪",
+    "MonsterId": 100003,
+    "Level": 1,
+    "Hp": 120,
+    "Atk": 50,
+    "Def": 15,
+    "BloRate": 10,
+    "MoveSpeed": 2.0,
+    "AttackSpeed": 3.0,
+    "SpawnPointRound": "2,2",
+    "SpawnPoint": "1,17",
+    "Type": 2
+  },
+  {
+    "Id": 200004,
+    "Name": "幽狼鬼",
+    "MonsterId": 100004,
+    "Level": 1,
+    "Hp": 240,
+    "Atk": 100,
+    "Def": 30,
+    "BloRate": 50,
+    "MoveSpeed": 4.0,
+    "AttackSpeed": 5.0,
+    "SpawnPointRound": "",
+    "SpawnPoint": "",
+    "Type": 3
+  }
+]

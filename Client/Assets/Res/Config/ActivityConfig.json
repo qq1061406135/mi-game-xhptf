@@ -1,0 +1,13 @@
+[
+  {
+    "Id": 2001,
+    "Name": "七日签到",
+    "Desc": "连续签到活动。每周累计",
+    "Type": 1,
+    "OpeningConditionsType": 1,
+    "OpeningConditionsValue": 1,
+    "OpenTime": "2024-07-07 07:15:42",
+    "CloseTime": "2025-07-07 07:15:42",
+    "Database": "signin7"
+  }
+]

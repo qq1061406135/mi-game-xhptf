@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 300001,
+    "Name": "战士普攻",
+    "SkillType": 1,
+    "Desc": "攻击单体NPC造成伤害",
+    "Res": "Assets/Res/Game/Prefab/Skill/Bullet 1.prefab",
+    "Range": 1.0,
+    "Num": 1,
+    "Cd": 1.0,
+    "Hurt": 1.0,
+    "BuffId": 0
+  },
+  {
+    "Id": 300002,
+    "Name": "弓箭手普攻1",
+    "SkillType": 1,
+    "Desc": "可穿透一名NPC造成伤害",
+    "Res": "Assets/Res/Game/Prefab/Skill/Bullet 2.prefab",
+    "Range": 2.0,
+    "Num": 2,
+    "Cd": 1.5,
+    "Hurt": 1.0,
+    "BuffId": 0
+  },
+  {
+    "Id": 300003,
+    "Name": "法师普攻",
+    "SkillType": 1,
+    "Desc": "小范围的普攻伤害",
+    "Res": "Assets/Res/Game/Prefab/Skill/Bullet 3.prefab",
+    "Range": 2.0,
+    "Num": 0,
+    "Cd": 1.5,
+    "Hurt": 1.0,
+    "BuffId": 0
+  },
+  {
+    "Id": 300004,
+    "Name": "单体冰霜",
+    "SkillType": 1,
+    "Desc": "对单体NPC造成伤害并附带冰霜减速效果",
+    "Res": "Assets/Res/Game/Prefab/Skill/Bullet 4.prefab",
+    "Range": 1.0,
+    "Num": 1,
+    "Cd": 1.0,
+    "Hurt": 1.0,
+    "BuffId": 450001
+  },
+  {
+    "Id": 300005,
+    "Name": "范围冰霜",
+    "SkillType": 1,
+    "Desc": "对小范围NPC造成伤害并附带冰霜减速效果",
+    "Res": "Assets/Res/Game/Prefab/Skill/Bullet 5.prefab",
+    "Range": 2.0,
+    "Num": 0,
+    "Cd": 1.5,
+    "Hurt": 1.0,
+    "BuffId": 450001
+  },
+  {
+    "Id": 300006,
+    "Name": "单体火焰",
+    "SkillType": 1,
+    "Desc": "对单体NPC造成伤害并附带火焰灼烧效果",
+    "Res": "Assets/Res/Game/Prefab/Skill/Bullet 6.prefab",
+    "Range": 1.0,
+    "Num": 1,
+    "Cd": 1.0,
+    "Hurt": 1.0,
+    "BuffId": 450002
+  },
+  {
+    "Id": 300007,
+    "Name": "范围火焰",
+    "SkillType": 1,
+    "Desc": "对范围NPC造成伤害并附带火焰灼烧效果",
+    "Res": "Assets/Res/Game/Prefab/Skill/Bullet 7.prefab",
+    "Range": 3.0,
+    "Num": 0,
+    "Cd": 1.5,
+    "Hurt": 1.0,
+    "BuffId": 450002
+  },
+  {
+    "Id": 300008,
+    "Name": "白芳技能重击",
+    "SkillType": 2,
+    "Desc": "重击：造成范围内NPC150%的技能伤害，并附带3秒的眩晕。",
+    "Res": "Assets/Res/Game/Prefab/Skill/Bullet 8.prefab",
+    "Range": 3.0,
+    "Num": 0,
+    "Cd": 10.0,
+    "Hurt": 1.5,
+    "BuffId": 0
+  }
+]

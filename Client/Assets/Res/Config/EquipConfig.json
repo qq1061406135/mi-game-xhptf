@@ -1,0 +1,28 @@
+[
+  {
+    "Id": 350001,
+    "SpineRes": "Assets/Res/Prefab/Equip/Weapon_AK.prefab",
+    "Icon": "Assets/Res/Com/Weapon/w_ak.png",
+    "Name": "青云剑",
+    "Position": 1,
+    "Atk": 4,
+    "Def": 0,
+    "Hp": 0,
+    "Speed": 0.0,
+    "AttackSpeed": 20.0,
+    "AttackRange": 0
+  },
+  {
+    "Id": 350002,
+    "SpineRes": "Assets/Res/Prefab/Equip/Weapon_AK.prefab",
+    "Icon": "Assets/Res/Com/Weapon/w_ak.png",
+    "Name": "魔剑",
+    "Position": 1,
+    "Atk": 1,
+    "Def": 0,
+    "Hp": 0,
+    "Speed": 0.0,
+    "AttackSpeed": 0.0,
+    "AttackRange": 0
+  }
+]

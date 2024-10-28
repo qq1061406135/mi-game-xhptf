@@ -1,0 +1,5 @@
+D:\git\mi-game-tf\Client\ExcelToJson\Excel
+D:\git\mi-game-tf\Client\Assets\Res\Config
+D:\git\mi-game-tf\Client\Assets\Code\Hotfix\Game\Config
+D:\git\MiGameTF\Server\src\config
+D:\git\MiGameTF\Server\src\game-service\configs

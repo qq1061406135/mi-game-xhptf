@@ -1,0 +1,222 @@
+[
+  {
+    "Id": 2001,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 1.prefab",
+    "Name": "石像鬼",
+    "Type": 1,
+    "AtkType": 1,
+    "Atk": 10,
+    "Speed": 1.0,
+    "Attack": 300001,
+    "Skill": 0
+  },
+  {
+    "Id": 2002,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 3.prefab",
+    "Name": "史莱姆",
+    "Type": 1,
+    "AtkType": 0,
+    "Atk": 10,
+    "Speed": 0.0,
+    "Attack": 300002,
+    "Skill": 0
+  },
+  {
+    "Id": 2003,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 2.prefab",
+    "Name": "骷髅弓箭手",
+    "Type": 1,
+    "AtkType": 0,
+    "Atk": 10,
+    "Speed": 0.0,
+    "Attack": 300003,
+    "Skill": 0
+  },
+  {
+    "Id": 2004,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 4.prefab",
+    "Name": "食尸鬼",
+    "Type": 1,
+    "AtkType": 0,
+    "Atk": 10,
+    "Speed": 0.0,
+    "Attack": 300004,
+    "Skill": 0
+  },
+  {
+    "Id": 2005,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 5.prefab",
+    "Name": "哥布林",
+    "Type": 1,
+    "AtkType": 0,
+    "Atk": 10,
+    "Speed": 0.0,
+    "Attack": 300005,
+    "Skill": 0
+  },
+  {
+    "Id": 2006,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 6.prefab",
+    "Name": "熔岩魔像",
+    "Type": 2,
+    "AtkType": 0,
+    "Atk": 20,
+    "Speed": 0.0,
+    "Attack": 300005,
+    "Skill": 0
+  },
+  {
+    "Id": 2007,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 6.prefab",
+    "Name": "地狱小恶魔",
+    "Type": 2,
+    "AtkType": 0,
+    "Atk": 20,
+    "Speed": 0.0,
+    "Attack": 300006,
+    "Skill": 0
+  },
+  {
+    "Id": 2008,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 6.prefab",
+    "Name": "蜂王",
+    "Type": 2,
+    "AtkType": 0,
+    "Atk": 20,
+    "Speed": 0.0,
+    "Attack": 300007,
+    "Skill": 0
+  },
+  {
+    "Id": 2009,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 6.prefab",
+    "Name": "海龙兽",
+    "Type": 2,
+    "AtkType": 0,
+    "Atk": 20,
+    "Speed": 0.0,
+    "Attack": 300001,
+    "Skill": 0
+  },
+  {
+    "Id": 2010,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 6.prefab",
+    "Name": "树人祭祀",
+    "Type": 2,
+    "AtkType": 0,
+    "Atk": 20,
+    "Speed": 0.0,
+    "Attack": 300002,
+    "Skill": 0
+  },
+  {
+    "Id": 2011,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 7.prefab",
+    "Name": "死亡骑士",
+    "Type": 3,
+    "AtkType": 0,
+    "Atk": 50,
+    "Speed": 0.0,
+    "Attack": 300003,
+    "Skill": 0
+  },
+  {
+    "Id": 2012,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 7.prefab",
+    "Name": "地狱三头犬",
+    "Type": 3,
+    "AtkType": 0,
+    "Atk": 50,
+    "Speed": 0.0,
+    "Attack": 300004,
+    "Skill": 0
+  },
+  {
+    "Id": 2013,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 7.prefab",
+    "Name": "骨龙",
+    "Type": 3,
+    "AtkType": 0,
+    "Atk": 50,
+    "Speed": 0.0,
+    "Attack": 300005,
+    "Skill": 0
+  },
+  {
+    "Id": 2014,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 7.prefab",
+    "Name": "魅影",
+    "Type": 3,
+    "AtkType": 0,
+    "Atk": 50,
+    "Speed": 0.0,
+    "Attack": 300005,
+    "Skill": 0
+  },
+  {
+    "Id": 2015,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 7.prefab",
+    "Name": "上古木乃伊",
+    "Type": 3,
+    "AtkType": 0,
+    "Atk": 50,
+    "Speed": 0.0,
+    "Attack": 300006,
+    "Skill": 0
+  },
+  {
+    "Id": 2101,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 8.prefab",
+    "Name": "白芳",
+    "Type": 4,
+    "AtkType": 0,
+    "Atk": 100,
+    "Speed": 0.0,
+    "Attack": 300007,
+    "Skill": 0
+  },
+  {
+    "Id": 2102,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 8.prefab",
+    "Name": "艾玛",
+    "Type": 4,
+    "AtkType": 0,
+    "Atk": 100,
+    "Speed": 0.0,
+    "Attack": 300001,
+    "Skill": 0
+  },
+  {
+    "Id": 2103,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 8.prefab",
+    "Name": "迦楼罗",
+    "Type": 4,
+    "AtkType": 0,
+    "Atk": 100,
+    "Speed": 0.0,
+    "Attack": 300002,
+    "Skill": 0
+  },
+  {
+    "Id": 2104,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 8.prefab",
+    "Name": "塞壬",
+    "Type": 4,
+    "AtkType": 0,
+    "Atk": 100,
+    "Speed": 0.0,
+    "Attack": 300003,
+    "Skill": 0
+  },
+  {
+    "Id": 2105,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 8.prefab",
+    "Name": "丽贝卡",
+    "Type": 4,
+    "AtkType": 0,
+    "Atk": 100,
+    "Speed": 0.0,
+    "Attack": 300004,
+    "Skill": 0
+  }
+]

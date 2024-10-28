@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 300001,
+    "Name": "清风剑",
+    "Level": 1,
+    "CD": 1.0,
+    "SkillNum": 1,
+    "SkillTargetNum": 1,
+    "BuffiId": 450001,
+    "Range": 0.0,
+    "RangeAtk": 0.0,
+    "IsPierce": 0,
+    "PierceAtk": 0.0,
+    "IsRepel": 0
+  },
+  {
+    "Id": 3000011,
+    "Name": "清风剑-分裂",
+    "Level": 1,
+    "CD": 0.0,
+    "SkillNum": 2,
+    "SkillTargetNum": 1,
+    "BuffiId": 450001,
+    "Range": 0.0,
+    "RangeAtk": 0.0,
+    "IsPierce": 0,
+    "PierceAtk": 0.0,
+    "IsRepel": 0
+  },
+  {
+    "Id": 30000111,
+    "Name": "清风剑-分裂-冰冻",
+    "Level": 1,
+    "CD": 0.0,
+    "SkillNum": 0,
+    "SkillTargetNum": 0,
+    "BuffiId": 450001,
+    "Range": 0.0,
+    "RangeAtk": 0.0,
+    "IsPierce": 0,
+    "PierceAtk": 0.0,
+    "IsRepel": 0
+  },
+  {
+    "Id": 3000012,
+    "Name": "清风剑-连射",
+    "Level": 1,
+    "CD": 0.0,
+    "SkillNum": 3,
+    "SkillTargetNum": 1,
+    "BuffiId": 450001,
+    "Range": 0.0,
+    "RangeAtk": 0.0,
+    "IsPierce": 0,
+    "PierceAtk": 0.0,
+    "IsRepel": 0
+  },
+  {
+    "Id": 30000121,
+    "Name": "清风剑-连射-击退",
+    "Level": 1,
+    "CD": 0.0,
+    "SkillNum": 0,
+    "SkillTargetNum": 0,
+    "BuffiId": 450001,
+    "Range": 0.0,
+    "RangeAtk": 0.0,
+    "IsPierce": 0,
+    "PierceAtk": 0.0,
+    "IsRepel": 0
+  }
+]

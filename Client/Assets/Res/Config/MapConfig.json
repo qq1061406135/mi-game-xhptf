@@ -1,0 +1,11 @@
+[
+  {
+    "Id": 10001,
+    "Level": 1,
+    "Name": "荒野森林",
+    "Map": "Assets/Res/Game/Scenes/Level1.unity",
+    "SpawnPoint": "0,0",
+    "LevelId": 50001,
+    "MaxNum": 1
+  }
+]

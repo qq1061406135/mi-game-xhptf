@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 300001,
+    "Name": "清风剑",
+    "BranchDepth": 1,
+    "Branch": "3000011,3000012",
+    "MaxLevel": 1,
+    "Speed": 1.0
+  },
+  {
+    "Id": 3000011,
+    "Name": "清风剑分支一  分裂",
+    "BranchDepth": 2,
+    "Branch": "30000111",
+    "MaxLevel": 3,
+    "Speed": 0.0
+  },
+  {
+    "Id": 30000111,
+    "Name": "清风剑分裂分支一 冰冻",
+    "BranchDepth": 3,
+    "Branch": "0",
+    "MaxLevel": 3,
+    "Speed": 0.0
+  },
+  {
+    "Id": 3000012,
+    "Name": "清风剑分支二  连射",
+    "BranchDepth": 2,
+    "Branch": "30000121",
+    "MaxLevel": 3,
+    "Speed": 0.0
+  },
+  {
+    "Id": 30000121,
+    "Name": "清风剑连射分支一 击退",
+    "BranchDepth": 3,
+    "Branch": "0",
+    "MaxLevel": 3,
+    "Speed": 0.0
+  }
+]

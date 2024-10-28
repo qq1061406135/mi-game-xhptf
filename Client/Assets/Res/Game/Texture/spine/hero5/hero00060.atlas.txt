@@ -1,0 +1,104 @@
+
+hero00060.png
+size: 524,768
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dabi
+  rotate: true
+  xy: 341, 210
+  size: 87, 147
+  orig: 87, 147
+  offset: 0, 0
+  index: -1
+erhuan
+  rotate: false
+  xy: 505, 468
+  size: 16, 59
+  orig: 16, 59
+  offset: 0, 0
+  index: -1
+jianjia
+  rotate: false
+  xy: 341, 299
+  size: 162, 228
+  orig: 162, 228
+  offset: 0, 0
+  index: -1
+jianjia2
+  rotate: false
+  xy: 400, 529
+  size: 110, 103
+  orig: 110, 103
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 253
+  size: 318, 337
+  orig: 322, 337
+  offset: 4, 0
+  index: -1
+shouhuan1
+  rotate: false
+  xy: 290, 190
+  size: 37, 61
+  orig: 37, 61
+  offset: 0, 0
+  index: -1
+shouhuan2
+  rotate: true
+  xy: 341, 549
+  size: 22, 51
+  orig: 22, 52
+  offset: 0, 1
+  index: -1
+tou
+  rotate: true
+  xy: 2, 149
+  size: 102, 286
+  orig: 102, 286
+  offset: 0, 0
+  index: -1
+toujin2
+  rotate: true
+  xy: 2, 573
+  size: 193, 396
+  orig: 193, 399
+  offset: 0, 0
+  index: -1
+tujin3
+  rotate: true
+  xy: 2, 6
+  size: 141, 277
+  orig: 145, 277
+  offset: 0, 0
+  index: -1
+xiaobi
+  rotate: false
+  xy: 290, 86
+  size: 211, 102
+  orig: 211, 103
+  offset: 0, 1
+  index: -1
+youdabi
+  rotate: false
+  xy: 400, 634
+  size: 115, 132
+  orig: 115, 132
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 388, 2
+  size: 89, 82
+  orig: 89, 82
+  offset: 0, 0
+  index: -1
+youxiaobi
+  rotate: false
+  xy: 281, 8
+  size: 105, 76
+  orig: 105, 76
+  offset: 0, 0
+  index: -1

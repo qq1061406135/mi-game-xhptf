@@ -1,0 +1,83 @@
+
+hero00056.png
+size: 772,172
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Yshou
+  rotate: true
+  xy: 687, 90
+  size: 78, 82
+  orig: 78, 82
+  offset: 0, 0
+  index: -1
+Zshou
+  rotate: false
+  xy: 286, 12
+  size: 124, 64
+  orig: 124, 64
+  offset: 0, 0
+  index: -1
+chuxu01
+  rotate: true
+  xy: 517, 2
+  size: 86, 87
+  orig: 86, 87
+  offset: 0, 0
+  index: -1
+chuxu02
+  rotate: false
+  xy: 606, 2
+  size: 85, 86
+  orig: 86, 86
+  offset: 1, 0
+  index: -1
+chuxu03
+  rotate: false
+  xy: 423, 96
+  size: 143, 72
+  orig: 143, 72
+  offset: 0, 0
+  index: -1
+chuxu04
+  rotate: false
+  xy: 423, 24
+  size: 92, 70
+  orig: 93, 71
+  offset: 0, 1
+  index: -1
+chuxu05
+  rotate: false
+  xy: 568, 90
+  size: 117, 78
+  orig: 117, 79
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 693, 25
+  size: 54, 63
+  orig: 54, 63
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 179, 41
+  size: 105, 127
+  orig: 105, 127
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 286, 78
+  size: 90, 135
+  orig: 90, 135
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 2, 8
+  size: 175, 160
+  orig: 175, 160
+  offset: 0, 0
+  index: -1

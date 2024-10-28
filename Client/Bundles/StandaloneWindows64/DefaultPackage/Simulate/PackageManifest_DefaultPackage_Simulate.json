@@ -1,0 +1,839 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": false,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "Simulate",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/TripleTown/1.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/TripleTown/2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/TripleTown/3.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/TripleTown/4.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/TripleTown/5.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/TripleTown/6.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/TripleTown/7.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/TripleTown/8.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/TripleTown/bg_0.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/TripleTown/cell_gray.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_ak.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_cfq.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_cjj.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_dao.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_dg.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_fs.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_gj.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_gtst.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_hdl.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_jgb.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_jtl.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_ju.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_ld.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_mb.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_mq.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_nnp.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_rsq.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_sd.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_sq.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_sq2.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_szg.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_tb.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Com/Weapon/w_tj.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Login/Launcher.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Login/Prefab/UICreatePlayer.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Login/Prefab/UIIndulge.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Login/Prefab/UILogin.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Login/Prefab/UINotice.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Login/Prefab/UIRegister.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Login/Prefab/UISelectServer.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Login/Prefab/UISelectServerRegion.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Main/Main.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Main/Prefab/UIEquip.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Main/Prefab/UIItemInfo.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Main/Prefab/UIMain.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Main/Prefab/UIRoleInfo.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Main/Prefab/UISignIn7.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Main/Prefab/UISkill.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Main/Prefab/UITripleTown.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Main/Texture/6.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Hero.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Monster.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/monsterPar.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Player.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Skill1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/UIGame.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/UIJoystick.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Wapeon_1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Scenes/Level1.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Texture/hero_box.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Texture/img_menu_btn.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Texture/img_qh_btn.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Texture/img_top_bar.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Texture/img_zh_btn.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Texture/xhpgame_bg.jpg",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/ActivityConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/BuffConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/DropConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/EquipConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/ItemConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/LevelConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/LevelMonsterConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/MapConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/MonsterConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/PlayerConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/SignIn7Config.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/SkillBranchConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/SkillBranchLevelConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/SkillConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Prefab/Bullet/Buttle_AK.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Prefab/Equip/Weapon_AK.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Prefab/TripleTown/barrierPrefab.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Prefab/TripleTown/emptyPrefab.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Prefab/TripleTown/gem3Prefab.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Prefab/TripleTown/gemPrefab.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Prefab/TripleTown/gridPrefab.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 13
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Prefab/UI/UIComTip.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Code/endel.nativewebsocket.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Code/Google.Protobuf.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Code/Hotfix.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Code/mscorlib.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Code/Newtonsoft.Json.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Code/System.Core.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Code/System.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Code/UnityEngine.CoreModule.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 15
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_res_com_tripletown.bundle",
+            "UnityCRC": 0,
+            "FileHash": "a731f200173ba5db64c687c014ec6720",
+            "FileCRC": "00000000",
+            "FileSize": 534605,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_com_weapon.bundle",
+            "UnityCRC": 0,
+            "FileHash": "d4cb556f7d685e17aa1e3423617017db",
+            "FileCRC": "00000000",
+            "FileSize": 91992,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_login.bundle",
+            "UnityCRC": 0,
+            "FileHash": "f04f70bc23fc786c63b98f694d6ffeb1",
+            "FileCRC": "00000000",
+            "FileSize": 34548,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_login_prefab.bundle",
+            "UnityCRC": 0,
+            "FileHash": "1ce120f5da637689a1ed81413d8f020d",
+            "FileCRC": "00000000",
+            "FileSize": 276871,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_main.bundle",
+            "UnityCRC": 0,
+            "FileHash": "5876c5457bc689759860941a8d9ff962",
+            "FileCRC": "00000000",
+            "FileSize": 10986,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_main_prefab.bundle",
+            "UnityCRC": 0,
+            "FileHash": "c646c000a8a94ee9fecb24371187d8d0",
+            "FileCRC": "00000000",
+            "FileSize": 344965,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_main_texture.bundle",
+            "UnityCRC": 0,
+            "FileHash": "63d73190b7861446d16cef58f4bfaa88",
+            "FileCRC": "00000000",
+            "FileSize": 645250,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_game_prefab.bundle",
+            "UnityCRC": 0,
+            "FileHash": "258f1b4fcc91862381a5e59f9bbc2bb6",
+            "FileCRC": "00000000",
+            "FileSize": 77601,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_game_scenes.bundle",
+            "UnityCRC": 0,
+            "FileHash": "fcda5fd187dec051f145cf2edfd5ddcf",
+            "FileCRC": "00000000",
+            "FileSize": 83578,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_game_texture.bundle",
+            "UnityCRC": 0,
+            "FileHash": "72da055b27712c9d8a53aed81e35588f",
+            "FileCRC": "00000000",
+            "FileSize": 162951,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_config.bundle",
+            "UnityCRC": 0,
+            "FileHash": "d055670cc00da466f905e8e441613c59",
+            "FileCRC": "00000000",
+            "FileSize": 9361,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_prefab_bullet.bundle",
+            "UnityCRC": 0,
+            "FileHash": "be0fb7ebbc718596bff5db6d5ab7d2dd",
+            "FileCRC": "00000000",
+            "FileSize": 7314,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_prefab_equip.bundle",
+            "UnityCRC": 0,
+            "FileHash": "b1b8541e31b75580aac62baa590f928b",
+            "FileCRC": "00000000",
+            "FileSize": 8343,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_prefab_tripletown.bundle",
+            "UnityCRC": 0,
+            "FileHash": "c3366d0ddce8eb7a6a7d24ec6ec3c806",
+            "FileCRC": "00000000",
+            "FileSize": 16041,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_prefab_ui.bundle",
+            "UnityCRC": 0,
+            "FileHash": "1664539d0ed7afdd24e15db819a31cb4",
+            "FileCRC": "00000000",
+            "FileSize": 9960,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_res_code.bundle",
+            "UnityCRC": 0,
+            "FileHash": "85227170fcee42f19621b4de902b6ada",
+            "FileCRC": "00000000",
+            "FileSize": 5369856,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

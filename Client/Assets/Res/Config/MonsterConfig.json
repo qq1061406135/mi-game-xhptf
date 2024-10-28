@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 100001,
+    "Name": "噬人花",
+    "Res": "Assets/Res/Game/Prefab/Monster.prefab"
+  },
+  {
+    "Id": 100002,
+    "Name": "蛮荒猪",
+    "Res": "Assets/Res/Game/Prefab/Monster.prefab"
+  },
+  {
+    "Id": 100003,
+    "Name": "眼魔怪",
+    "Res": "Assets/Res/Game/Prefab/Monster.prefab"
+  },
+  {
+    "Id": 100004,
+    "Name": "幽狼鬼",
+    "Res": "Assets/Res/Game/Prefab/Monster.prefab"
+  }
+]
