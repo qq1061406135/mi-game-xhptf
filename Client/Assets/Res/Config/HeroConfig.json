@@ -8,7 +8,8 @@
     "Atk": 10,
     "Speed": 1.0,
     "Attack": 300001,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2002,
@@ -19,7 +20,8 @@
     "Atk": 10,
     "Speed": 0.0,
     "Attack": 300002,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2003,
@@ -30,7 +32,8 @@
     "Atk": 10,
     "Speed": 0.0,
     "Attack": 300003,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2004,
@@ -41,7 +44,8 @@
     "Atk": 10,
     "Speed": 0.0,
     "Attack": 300004,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2005,
@@ -52,7 +56,8 @@
     "Atk": 10,
     "Speed": 0.0,
     "Attack": 300005,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2006,
@@ -63,7 +68,8 @@
     "Atk": 20,
     "Speed": 0.0,
     "Attack": 300005,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2007,
@@ -74,7 +80,8 @@
     "Atk": 20,
     "Speed": 0.0,
     "Attack": 300006,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2008,
@@ -85,7 +92,8 @@
     "Atk": 20,
     "Speed": 0.0,
     "Attack": 300007,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2009,
@@ -96,7 +104,8 @@
     "Atk": 20,
     "Speed": 0.0,
     "Attack": 300001,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2010,
@@ -107,7 +116,8 @@
     "Atk": 20,
     "Speed": 0.0,
     "Attack": 300002,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2011,
@@ -118,7 +128,8 @@
     "Atk": 50,
     "Speed": 0.0,
     "Attack": 300003,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2012,
@@ -129,7 +140,8 @@
     "Atk": 50,
     "Speed": 0.0,
     "Attack": 300004,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2013,
@@ -140,7 +152,8 @@
     "Atk": 50,
     "Speed": 0.0,
     "Attack": 300005,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2014,
@@ -151,7 +164,8 @@
     "Atk": 50,
     "Speed": 0.0,
     "Attack": 300005,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2015,
@@ -162,7 +176,8 @@
     "Atk": 50,
     "Speed": 0.0,
     "Attack": 300006,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2101,
@@ -173,7 +188,8 @@
     "Atk": 100,
     "Speed": 0.0,
     "Attack": 300007,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2102,
@@ -184,7 +200,8 @@
     "Atk": 100,
     "Speed": 0.0,
     "Attack": 300001,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2103,
@@ -195,7 +212,8 @@
     "Atk": 100,
     "Speed": 0.0,
     "Attack": 300002,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2104,
@@ -206,7 +224,8 @@
     "Atk": 100,
     "Speed": 0.0,
     "Attack": 300003,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
   },
   {
     "Id": 2105,
@@ -217,6 +236,55 @@
     "Atk": 100,
     "Speed": 0.0,
     "Attack": 300004,
-    "Skill": 0
+    "Skill": 0,
+    "Merge": ""
+  },
+  {
+    "Id": 2201,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 8.prefab",
+    "Name": "树灵塞菲罗斯",
+    "Type": 5,
+    "AtkType": 0,
+    "Atk": 1000,
+    "Speed": 0.0,
+    "Attack": 300001,
+    "Skill": 0,
+    "Merge": "2011,2010,2005"
+  },
+  {
+    "Id": 2202,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 8.prefab",
+    "Name": "蛛王‌迈克斯纳",
+    "Type": 5,
+    "AtkType": 0,
+    "Atk": 1000,
+    "Speed": 0.0,
+    "Attack": 300002,
+    "Skill": 0,
+    "Merge": "2105,2013"
+  },
+  {
+    "Id": 2203,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 8.prefab",
+    "Name": "火恶魔路西法",
+    "Type": 5,
+    "AtkType": 0,
+    "Atk": 1000,
+    "Speed": 0.0,
+    "Attack": 300003,
+    "Skill": 0,
+    "Merge": "2103,2007,2007"
+  },
+  {
+    "Id": 2204,
+    "Res": "Assets/Res/Game/Prefab/Hero/Hero 8.prefab",
+    "Name": "水恶魔巴莎",
+    "Type": 5,
+    "AtkType": 0,
+    "Atk": 1000,
+    "Speed": 0.0,
+    "Attack": 300004,
+    "Skill": 0,
+    "Merge": "2104,2009"
   }
 ]

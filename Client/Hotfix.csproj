@@ -59,6 +59,7 @@
     <Compile Include="Assets\Code\Hotfix\Game\Hero\HeroSpawner.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Config\BuffConfig.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Config\ActivityConfig.cs" />
+    <Compile Include="Assets\Code\Hotfix\Game\Numeric\GameEnum.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\UI\UIJoystick.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Config\LevelMonsterConfig.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Data\ServerData.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Code\Hotfix\Game\Config\MapConfig.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\UI\UINotice.cs" />
     <Compile Include="Assets\Code\Hotfix\Helper\CsvHelper.cs" />
+    <Compile Include="Assets\Code\Hotfix\Game\UI\Item\LeqentBtn.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Define.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Config\EquipConfig.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\UI\UISelectServer.cs" />
@@ -106,6 +108,7 @@
     <Compile Include="Assets\Code\Hotfix\Game\Proto\PTCom.cs" />
     <Compile Include="Assets\Code\Hotfix\Coroutine\CoroutineComponent.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Monster\MonsterBuff.cs" />
+    <Compile Include="Assets\Code\Hotfix\Game\UI\UILeqent.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\UI\UIComTip.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Data\PlayerData.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Hero\Bullet.cs" />
@@ -154,8 +157,9 @@
     <Compile Include="Assets\Code\Hotfix\Game\UI\UISelectServerRegion.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\UI\UIRoleInfo.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\UI\UIWearEquipItem.cs" />
-    <Compile Include="Assets\Code\Hotfix\Game\Numeric\GameEnum.cs" />
-    <Compile Include="Assets\Code\Hotfix\Game\UI\UILeqent.cs" />
+    <Compile Include="Assets\Code\Hotfix\Game\UI\Item\TrapItemCom.cs" />
+    <Compile Include="Assets\Code\Hotfix\Game\Trap\Trap.cs" />
+    <Compile Include="Assets\Code\Hotfix\Game\Trap\TrapSeat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Code\Hotfix\Hotfix.asmdef" />

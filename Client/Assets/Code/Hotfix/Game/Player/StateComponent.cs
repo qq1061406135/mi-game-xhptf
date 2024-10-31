@@ -39,7 +39,7 @@ public class StateComponent : MonoBehaviour
     {
         _health = h;
         health = h;
-        Log.Debug("初始化血量 " + h);
+        //Log.Debug("初始化血量 " + h);
     }
 
     public void Update()
@@ -52,7 +52,7 @@ public class StateComponent : MonoBehaviour
 
     public void OnHit(int h)
     {
-        Log.Debug("伤害血量 " + h);
+        //Log.Debug("伤害血量 " + h);
         health -= h;
         if (health <= 0)
         {

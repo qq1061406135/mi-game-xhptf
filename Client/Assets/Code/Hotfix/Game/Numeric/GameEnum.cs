@@ -1,3 +1,27 @@
+
+public enum HeroQualityType
+{
+    /// <summary>
+    /// 绿色
+    /// </summary>
+    GREEN = 1,
+    /// <summary>
+    /// 蓝色
+    /// </summary>
+    BLUE,
+    /// <summary>
+    /// 紫色
+    /// </summary>
+    PURPLE,
+    /// <summary>
+    /// 橙色
+    /// </summary>
+    ORANGE,
+    /// <summary>
+    /// 红色
+    /// </summary>
+    RED
+}
 public enum BuffType
 {
     /// <summary>

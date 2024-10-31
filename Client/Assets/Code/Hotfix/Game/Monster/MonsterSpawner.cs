@@ -11,6 +11,8 @@ public class MonsterSpawner : MonoBehaviour
 
     public Transform[] waypoints; // 路径点数组
 
+    public GameObject trapNode;//陷阱点位置
+
     public GameObject timeNode;
     public TextMeshPro nameTxt;
 

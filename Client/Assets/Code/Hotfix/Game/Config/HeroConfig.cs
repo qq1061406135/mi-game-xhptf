@@ -19,4 +19,6 @@ public class HeroConfig
     public int Attack { get; set; }
     // 主动技能
     public int Skill { get; set; }
+    // 合成
+    public string Merge { get; set; }
 }

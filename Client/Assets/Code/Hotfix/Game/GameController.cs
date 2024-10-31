@@ -8,6 +8,8 @@ public class GameController : GameScene
    
     public static GameController instance;
 
+    public Camera camera;
+
     public HeroSpawner heroSpawner;
 
     public MonsterSpawner monsterSpawner;

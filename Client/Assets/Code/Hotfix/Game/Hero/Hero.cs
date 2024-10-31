@@ -15,7 +15,7 @@ public class Hero : MonoBehaviour
     private Monster fireMonster;
     private float nextFireTime = 0f;
 
-    private HeroConfig config;
+    public HeroConfig config;
     private HeroSkillConfig attackConfig;
     // Start is called before the first frame update
     void Start()

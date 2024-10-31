@@ -5,10 +5,13 @@ using UnityEngine;
 
 public class UIGame : UILayerBase
 {
+    public Transform leftNode;
 
     public TextMeshProUGUI monsterTxt;
 
     public TextMeshProUGUI coinTxt;
+
+    public GameObject leqenBtnFab;
 
     private void Start()
     {
@@ -31,6 +34,29 @@ public class UIGame : UILayerBase
     public void updateCoinTxt(int num)
     {
         coinTxt.text = num.ToString();
+    }
+    /// <summary>
+    /// 更新召唤传说按钮
+    /// </summary>
+    public void updateLeqentBtn()
+    {
+        List<HeroConfig> list = GameController.instance.heroSpawner.GetSafetyLeqent();
+        if(leftNode.childCount > 0)
+        {
+            for(int i = 0;i < leftNode.childCount; i++)
+            {
+                Destroy(leftNode.GetChild(i).gameObject);
+            }
+        }
+        if(list.Count > 0)
+        {
+            for(int i = 0;i < list.Count; i++)
+            {
+                GameObject btnPef = Instantiate(leqenBtnFab, leftNode.transform);
+                LeqentBtn c = btnPef.GetComponent<LeqentBtn>();
+                c.SetLeqentInfo(list[i]);
+            }
+        }
     }
 
     public async void OnBackClick()

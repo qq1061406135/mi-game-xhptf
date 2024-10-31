@@ -102,18 +102,18 @@ public class Monster : MonoBehaviour
 
     }
 
-    public void OnAttack()
-    {
-
-    }
-    public void OnHit(Numeric numeric)
+    public void OnAttack(Numeric numeric)
     {
         //获取当前血量
         //Debug.LogWarning("受伤");
-        if(numeric.GetAsInt(NumericType.BuffId) > 0)
+        if (numeric.GetAsInt(NumericType.BuffId) > 0)
         {
             monsterBuff.AddBuff(numeric.GetAsInt(NumericType.BuffId), numeric.GetAsInt(NumericType.Atk));
         }
+        OnHit(numeric);
+    }
+    public void OnHit(Numeric numeric)
+    {
         state.OnHit(numeric.GetAsInt(NumericType.Atk));
         if (state.isDie)
         {

@@ -108,7 +108,7 @@ public class Bullet : MonoBehaviour
                 }
                 foreach (Monster m in nearbyMonsters)
                 {
-                    m.OnHit(_numeric);
+                    m.OnAttack(_numeric);
                 }
             }
         }
