@@ -11,15 +11,19 @@ public class UIGame : UILayerBase
 
     public TextMeshProUGUI coinTxt;
 
+    public TextMeshProUGUI summonCostTxt;
+
     public GameObject leqenBtnFab;
 
     private void Start()
     {
-        //GameData.Instance.userData.skillPositionDatas.ForEach((positionData) =>
-        //{
-        //    skillBtns[positionData.Position].updateSkill(GameData.Instance.userData.skillDatas.Find(p => p.ConfigId == positionData.ConfigId));
-        //});
     }
+
+    public void InitTrap()
+    {
+
+    }
+
     /// <summary>
     /// 修改怪物数量显示
     /// </summary>
@@ -34,6 +38,10 @@ public class UIGame : UILayerBase
     public void updateCoinTxt(int num)
     {
         coinTxt.text = num.ToString();
+    }
+    public void updateCostTxt(int num)
+    {
+        summonCostTxt.text = num.ToString();
     }
     /// <summary>
     /// 更新召唤传说按钮
@@ -71,16 +79,22 @@ public class UIGame : UILayerBase
         //await GameEntry.UI.Open<UIMain>(UIConfigs.UIMain);
         GameEntry.UI.Close<UIGame>(UIConfigs.UIGame);
     }
-
+    /// <summary>
+    /// 打开召唤传说界面
+    /// </summary>
     public void OnLeqentClick()
     {
         GameEntry.UI.Open<UILeqent>(UIConfigs.UILeqent);
     }
-
+    /// <summary>
+    /// 点击孵化
+    /// </summary>
     public void OnSpawnClick()
     {
-        if (GameController.instance.subCoin(20))
+        if (GameController.instance.subCoin(GameController.instance.cost))
         {
+            GameController.instance.cost += 2;
+            updateCostTxt(GameController.instance.cost);
             GameController.instance.heroSpawner.SpawnHero();
         }
         else

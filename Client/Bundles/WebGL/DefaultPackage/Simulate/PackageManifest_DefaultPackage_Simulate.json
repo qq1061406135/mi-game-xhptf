@@ -451,6 +451,13 @@
         },
         {
             "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Item/TrapItem.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "",
             "AssetPath": "Assets/Res/Game/Prefab/Monster/Monster 1.prefab",
             "AssetGUID": "",
             "AssetTags": [],
@@ -487,6 +494,13 @@
         {
             "Address": "",
             "AssetPath": "Assets/Res/Game/Prefab/UIGame.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/UIGameOver.prefab",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 12
@@ -585,6 +599,41 @@
         {
             "Address": "",
             "AssetPath": "Assets/Res/Game/Prefab/Trap/Trap2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Trap/Trap3.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Trap/Trap4.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Trap/Trap5.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Trap/Trap6.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 14
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Game/Prefab/Trap/Trap7.prefab",
             "AssetGUID": "",
             "AssetTags": [],
             "BundleID": 14
@@ -1256,6 +1305,20 @@
         },
         {
             "Address": "",
+            "AssetPath": "Assets/Res/Config/TrapConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 28
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Res/Config/TrapSkillConfig.json",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 28
+        },
+        {
+            "Address": "",
             "AssetPath": "Assets/Res/Prefab/Bullet/Buttle_AK.prefab",
             "AssetGUID": "",
             "AssetTags": [],
@@ -1473,7 +1536,7 @@
             "UnityCRC": 0,
             "FileHash": "889dfdb2ae9c7ea8a10b00002428b634",
             "FileCRC": "00000000",
-            "FileSize": 2238,
+            "FileSize": 11161,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -1483,7 +1546,7 @@
             "UnityCRC": 0,
             "FileHash": "1f8e28fd0c14038428adb33e1a30ce57",
             "FileCRC": "00000000",
-            "FileSize": 23862,
+            "FileSize": 23879,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -1493,7 +1556,7 @@
             "UnityCRC": 0,
             "FileHash": "d75716a15e085760007bc78341c36124",
             "FileCRC": "00000000",
-            "FileSize": 117647,
+            "FileSize": 130884,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -1513,7 +1576,7 @@
             "UnityCRC": 0,
             "FileHash": "5f31527a3a642d8125da02830578f5c3",
             "FileCRC": "00000000",
-            "FileSize": 7362,
+            "FileSize": 25822,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -1523,7 +1586,7 @@
             "UnityCRC": 0,
             "FileHash": "db470043a778eceb7ad434cf4483b40d",
             "FileCRC": "00000000",
-            "FileSize": 167322,
+            "FileSize": 167346,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -1653,7 +1716,7 @@
             "UnityCRC": 0,
             "FileHash": "4d2e7c4f012586b2982d2af78f1dedd7",
             "FileCRC": "00000000",
-            "FileSize": 17905,
+            "FileSize": 55707,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -1703,7 +1766,7 @@
             "UnityCRC": 0,
             "FileHash": "19a7d4d1c55cb573fef2b6c6952fdb65",
             "FileCRC": "00000000",
-            "FileSize": 5369856,
+            "FileSize": 5549056,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []

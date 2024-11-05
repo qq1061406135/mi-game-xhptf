@@ -53,8 +53,8 @@ public class ResourceComponent
     private async Task<bool> InitializeYooAssetWebGL()
     {
         // 注意：GameQueryServices.cs 太空战机的脚本类，详细见StreamingAssetsHelper.cs
-        string defaultHostServer = "http://127.0.0.1:3000/1.0.0";
-        string fallbackHostServer = "http://127.0.0.1:3000/1.0.0";
+        string defaultHostServer = "http://47.116.2.196/game/xhq/1.0.0";
+        string fallbackHostServer = "http://47.116.2.196/game/xhq/1.0.0";
         var initParameters = new WebPlayModeParameters();
         initParameters.BuildinQueryServices = new GameQueryServices();
         initParameters.RemoteServices = new RemoteServices(defaultHostServer, fallbackHostServer);

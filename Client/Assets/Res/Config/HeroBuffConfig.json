@@ -2,7 +2,7 @@
   {
     "Id": 450001,
     "Type": 1,
-    "Desc": "冰霜",
+    "Desc": "冰霜0.2",
     "res": "Assets/Res/Game/Prefab/Buff/Buff1.prefab",
     "ContinuedTime": 1.0,
     "Interval": 0.0,
@@ -15,6 +15,51 @@
     "res": "Assets/Res/Game/Prefab/Buff/Buff2.prefab",
     "ContinuedTime": 3.0,
     "Interval": 0.5,
+    "Value": 0.5
+  },
+  {
+    "Id": 450003,
+    "Type": 2,
+    "Desc": "毒液",
+    "res": "Assets/Res/Game/Prefab/Buff/Buff2.prefab",
+    "ContinuedTime": 3.0,
+    "Interval": 0.5,
+    "Value": 0.5
+  },
+  {
+    "Id": 450004,
+    "Type": 1,
+    "Desc": "落石",
+    "res": "Assets/Res/Game/Prefab/Buff/Buff2.prefab",
+    "ContinuedTime": 0.5,
+    "Interval": 0.0,
+    "Value": 0.0
+  },
+  {
+    "Id": 450005,
+    "Type": 1,
+    "Desc": "地穴",
+    "res": "Assets/Res/Game/Prefab/Buff/Buff2.prefab",
+    "ContinuedTime": 2.0,
+    "Interval": 0.0,
+    "Value": 0.0
+  },
+  {
+    "Id": 450006,
+    "Type": 1,
+    "Desc": "冰冻",
+    "res": "Assets/Res/Game/Prefab/Buff/Buff2.prefab",
+    "ContinuedTime": 3.0,
+    "Interval": 0.0,
+    "Value": 0.0
+  },
+  {
+    "Id": 450007,
+    "Type": 1,
+    "Desc": "冰霜0.5",
+    "res": "Assets/Res/Game/Prefab/Buff/Buff1.prefab",
+    "ContinuedTime": 3.0,
+    "Interval": 0.0,
     "Value": 0.5
   }
 ]

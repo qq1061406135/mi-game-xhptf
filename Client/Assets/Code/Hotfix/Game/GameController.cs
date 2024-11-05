@@ -23,6 +23,11 @@ public class GameController : GameScene
 
     public LevelConfig levelConfig;
 
+    [HideInInspector]
+    public int cost = 20;
+
+    private int levelId = 1;
+
     public override void OnAwake()
     {
         base.OnAwake();
@@ -69,12 +74,26 @@ public class GameController : GameScene
     //游戏波次开始
     public void startBattle()
     {
-        monsterSpawner.start(10,10);
+        MonsterConfig config = ConfigComponent.Instance.monsterConfigs.Find(p => p.Id == levelId);
+        monsterSpawner.start(config, 10);
     }
     //队列结束
     public void endQueue()
     {
-        startBattle();
+        levelId++;
+        if(levelId <= 80)
+        {
+            startBattle();
+        }
+        else
+        {
+            Debug.Log("所有怪物释放完成");
+        }
+    }
+
+    public void GameOver()
+    {
+        GameEntry.UI.Open<UILeqent>(UIConfigs.UIGameOver);
     }
 
     public bool subCoin(int coin)

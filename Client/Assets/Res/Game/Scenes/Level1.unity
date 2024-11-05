@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 42151936}
   m_Layer: 0
   m_Name: seat (22)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -199,7 +199,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 158320501}
   m_Layer: 0
   m_Name: seat (16)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -407,7 +407,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -635,6 +635,7 @@ MonoBehaviour:
   monsterSpawner: {fileID: 941568486}
   skillNode: {fileID: 1245084690}
   uiGame: {fileID: 0}
+  cost: 20
 --- !u!4 &250239144
 Transform:
   m_ObjectHideFlags: 0
@@ -664,7 +665,7 @@ GameObject:
   - component: {fileID: 348781396}
   m_Layer: 0
   m_Name: seat (15)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -726,7 +727,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -991,7 +992,7 @@ GameObject:
   - component: {fileID: 515513056}
   m_Layer: 0
   m_Name: seat (13)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1053,7 +1054,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -1234,7 +1235,7 @@ GameObject:
   - component: {fileID: 600982509}
   m_Layer: 0
   m_Name: seat (10)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1296,7 +1297,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -1695,7 +1696,7 @@ GameObject:
   - component: {fileID: 662784069}
   m_Layer: 0
   m_Name: seat (23)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1757,7 +1758,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -1903,7 +1904,7 @@ GameObject:
   - component: {fileID: 714567867}
   m_Layer: 0
   m_Name: seat (14)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1965,7 +1966,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -2226,7 +2227,7 @@ GameObject:
   - component: {fileID: 791931969}
   m_Layer: 0
   m_Name: seat (1)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2288,7 +2289,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -2350,7 +2351,7 @@ GameObject:
   - component: {fileID: 852596681}
   m_Layer: 0
   m_Name: seat (11)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2412,7 +2413,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -2617,7 +2618,7 @@ GameObject:
   - component: {fileID: 1030314261}
   m_Layer: 0
   m_Name: seat (4)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2679,7 +2680,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -2741,7 +2742,7 @@ GameObject:
   - component: {fileID: 1135931283}
   m_Layer: 0
   m_Name: seat (6)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2803,7 +2804,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -3117,7 +3118,7 @@ GameObject:
   - component: {fileID: 1235240485}
   m_Layer: 0
   m_Name: seat (2)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3179,7 +3180,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -3325,7 +3326,7 @@ GameObject:
   - component: {fileID: 1239528613}
   m_Layer: 0
   m_Name: seat (20)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3387,7 +3388,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -3564,7 +3565,7 @@ GameObject:
   - component: {fileID: 1276767953}
   m_Layer: 0
   m_Name: seat (8)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3626,7 +3627,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -3688,7 +3689,7 @@ GameObject:
   - component: {fileID: 1307520734}
   m_Layer: 0
   m_Name: seat (17)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3750,7 +3751,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -3892,7 +3893,7 @@ GameObject:
   - component: {fileID: 1491439895}
   m_Layer: 0
   m_Name: seat
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3954,7 +3955,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -4016,7 +4017,7 @@ GameObject:
   - component: {fileID: 1495098637}
   m_Layer: 0
   m_Name: seat (21)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4078,7 +4079,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -4339,7 +4340,7 @@ GameObject:
   - component: {fileID: 1687103129}
   m_Layer: 0
   m_Name: seat (19)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4401,7 +4402,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -4631,7 +4632,7 @@ GameObject:
   - component: {fileID: 1771637312}
   m_Layer: 0
   m_Name: seat (12)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4693,7 +4694,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -4923,7 +4924,7 @@ GameObject:
   - component: {fileID: 1836116368}
   m_Layer: 0
   m_Name: seat (9)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4985,7 +4986,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -5131,7 +5132,7 @@ GameObject:
   - component: {fileID: 1881847112}
   m_Layer: 0
   m_Name: seat (3)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5193,7 +5194,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -5394,7 +5395,7 @@ GameObject:
   - component: {fileID: 1925726017}
   m_Layer: 0
   m_Name: seat (7)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5456,7 +5457,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -5518,7 +5519,7 @@ GameObject:
   - component: {fileID: 1942140659}
   m_Layer: 0
   m_Name: seat (5)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5580,7 +5581,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
@@ -5797,7 +5798,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1748098225
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 7
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1982092023
@@ -6082,7 +6083,7 @@ GameObject:
   - component: {fileID: 2145919246}
   m_Layer: 0
   m_Name: seat (18)
-  m_TagString: trap
+  m_TagString: TrapBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6144,7 +6145,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 33c9f52c3c1b98e478310c15c159d975, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.08627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1

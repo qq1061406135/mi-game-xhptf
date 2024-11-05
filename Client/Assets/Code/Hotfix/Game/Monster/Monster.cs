@@ -13,8 +13,8 @@ public class Monster : MonoBehaviour
     private Transform[] waypoints; // 路径点数组
     private float moveSpeed = 1f; // 移动速度
     private int currentWaypointIndex = 0; // 当前目标路径点索引
+    private Vector3 originalScale;
 
-    private float speed = 1;
     private MonsterBuff monsterBuff;
 
     MonsterConfig _config;
@@ -23,14 +23,15 @@ public class Monster : MonoBehaviour
     {
         //trigger.onTriggerEnterAction += OnTriggerEnterHandler;
         monsterBuff = gameObject.AddComponent<MonsterBuff>();
-        _numeric = new Numeric();
-        _numeric.Set(NumericType.HpBase, 100f);
-        state.initHealth(_numeric.GetAsInt(NumericType.Hp));
+        originalScale = skin.transform.localScale;
     }
 
-    public void setWaypoints(Transform[] points)
+    public void SetMonsterInfo(MonsterConfig config, Transform[] points)
     {
         waypoints = points;
+        _numeric = new Numeric();
+        _numeric.Set(NumericType.HpBase, config.Hp);
+        state.initHealth(_numeric.GetAsInt(NumericType.Hp));
     }
 
     public void SetMonsterConfig(LevelMonsterConfig levelMonster,MonsterConfig config, MonsterData monsterData)
@@ -47,7 +48,6 @@ public class Monster : MonoBehaviour
         _numeric = numeric;
 
         transform.position = new Vector3(monsterData.Pos[0], monsterData.Pos[1]);
-        speed = _numeric.GetAsFloat(NumericType.Speed);
 
         state.initHealth(_numeric.GetAsInt(NumericType.Hp));
         state.nameTxt.text = levelMonster.Name;
@@ -57,7 +57,6 @@ public class Monster : MonoBehaviour
     public void SetMonsterConfig(LevelMonsterConfig levelMonster, MonsterConfig config)
     {
         _config = config;
-        speed = levelMonster.MoveSpeed;
 
         string[] pos = levelMonster.SpawnPoint.Split(',');
         transform.position = new Vector3(float.Parse(pos[0]), float.Parse(pos[1]));
@@ -92,6 +91,17 @@ public class Monster : MonoBehaviour
         if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.1f)
         {
             currentWaypointIndex++;
+            Vector3 scale = skin.transform.localScale;
+            if (currentWaypointIndex > 2)
+            {
+                scale.Set(-originalScale.x, originalScale.y, originalScale.z);
+            }
+            else
+            {
+                scale.Set(originalScale.x, originalScale.y, originalScale.z);
+            }
+
+            skin.transform.localScale = scale;
 
             // 如果到达最后一个路径点，则返回起点
             if (currentWaypointIndex >= waypoints.Length)

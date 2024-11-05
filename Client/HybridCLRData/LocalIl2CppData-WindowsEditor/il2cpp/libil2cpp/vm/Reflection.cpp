@@ -459,9 +459,11 @@ namespace vm
         if (method->method->parameters == NULL)
             return NULL;
 
+#if !SUPPORT_METHOD_RETURN_TYPE_CUSTOM_ATTRIBUTE
         IL2CPP_NOT_IMPLEMENTED_NO_ASSERT(Reflection::GetCustomAttributesCacheFor, "-1 represents the return value. Need to emit custom attribute information for that.")
         if (parameter->PositionImpl == -1)
             return NULL;
+#endif
 
         const MethodInfo* methodWithParameterAttributeInformation = method->method;
         if (method->method->is_inflated)
@@ -502,9 +504,11 @@ namespace vm
         if (method->method->parameters == NULL)
             return std::make_tuple<void*, void*>(NULL, NULL);
 
+#if !SUPPORT_METHOD_RETURN_TYPE_CUSTOM_ATTRIBUTE
         IL2CPP_NOT_IMPLEMENTED_NO_ASSERT(Reflection::GetCustomAttributesDataRangeFor, "-1 represents the return value. Need to emit custom attribute information for that.")
         if (parameter->PositionImpl == -1)
             return std::make_tuple<void*, void*>(NULL, NULL);
+#endif
 
         const MethodInfo* methodWithParameterAttributeInformation = method->method;
         if (method->method->is_inflated)

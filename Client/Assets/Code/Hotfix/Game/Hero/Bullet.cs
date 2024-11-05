@@ -96,7 +96,7 @@ public class Bullet : MonoBehaviour
 
     void OnAttack(Monster fireMonster)
     {
-        fireMonster.OnHit(_numeric);
+        fireMonster.OnAttack(_numeric);
         if (skillConfig.Num != 1)
         {
             List<Monster> nearbyMonsters = GameController.instance.monsterSpawner.GetMonsterInRadius(fireMonster, skillConfig.Range * 0.25f);

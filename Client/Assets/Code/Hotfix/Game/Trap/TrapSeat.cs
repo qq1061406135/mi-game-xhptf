@@ -10,10 +10,16 @@ public class TrapSeat : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //if (!UnityEditorInternal.InternalEditorUtility.tags.Equals("TrapBox"))
+        //{
+        //    UnityEditorInternal.InternalEditorUtility.AddTag("TrapBox");
+        //}
+        //gameObject.tag = "TrapBox";
+        gameObject.name = "TrapBox";
         sprite = GetComponent<SpriteRenderer>();
     }
 
-    public bool SetSelect(int id)
+    public bool SetSelect(TrapConfig config)
     {
         if(trap == null)
         {
@@ -29,7 +35,7 @@ public class TrapSeat : MonoBehaviour
 
     public void ClearSelect()
     {
-        ChangeAlpha(0f);
+        ChangeAlpha(0.1f);
     }
 
     private void ChangeAlpha(float alpha)
@@ -40,13 +46,14 @@ public class TrapSeat : MonoBehaviour
         sprite.color = currentColor;
     }
 
-    public async void AddTrap(int id)
+    public async void AddTrap(TrapConfig config)
     {
-        GameObject fab = await ResourceComponent.Instance.LoadAssetAsync<GameObject>("Assets/Res/Game/Prefab/Trap/Trap1.prefab");
+        GameObject fab = await ResourceComponent.Instance.LoadAssetAsync<GameObject>(config.res);
         if (fab != null)
         {
             GameObject trapNode = Instantiate(fab, transform);
             trap = trapNode.GetComponent<Trap>();
+            trap.SetTrapConfig(config);
         }
     }
 

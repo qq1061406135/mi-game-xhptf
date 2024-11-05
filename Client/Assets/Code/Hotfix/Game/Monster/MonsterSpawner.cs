@@ -23,9 +23,19 @@ public class MonsterSpawner : MonoBehaviour
         monsters = new List<Monster>();
     }
 
-    public void start(int num,float time)
+    public void start(MonsterConfig config, float time)
     {
-        StartCoroutine(CountDown(num,time));
+        StartCoroutine(CountDown(config, time));
+        LoadEnemyPrefab(config);
+    }
+
+    public async void LoadEnemyPrefab(MonsterConfig config)
+    {
+        GameObject fab = await ResourceComponent.Instance.LoadAssetAsync<GameObject>(config.Res);
+        if(fab != null)
+        {
+            enemyPrefab = fab;
+        }
     }
 
     /// <summary>
@@ -33,7 +43,7 @@ public class MonsterSpawner : MonoBehaviour
     /// </summary>
     /// <param name="num"></param>
     /// <returns></returns>
-    public IEnumerator CountDown(int num, float time)
+    public IEnumerator CountDown(MonsterConfig config, float time)
     {
         timeNode.SetActive(true);
         nameTxt.text = "3";
@@ -44,8 +54,8 @@ public class MonsterSpawner : MonoBehaviour
         yield return new WaitForSeconds(1f); // 等待指定的时间
         timeNode.SetActive(false);
 
-        StopCoroutine(CountDown(num, time));
-        CreateMonster(num);
+        StopCoroutine(CountDown(config, time));
+        CreateMonster(config);
         StartCoroutine(BattleCountDown(time));
     }
 
@@ -64,9 +74,9 @@ public class MonsterSpawner : MonoBehaviour
     /// 开始创建怪物
     /// </summary>
     /// <param name="num">怪物数量</param>
-    public void CreateMonster(int num)
+    public void CreateMonster(MonsterConfig config)
     {
-        StartCoroutine(SpawnEnemies(num));
+        StartCoroutine(SpawnEnemies(config));
     }
 
     /// <summary>
@@ -74,32 +84,37 @@ public class MonsterSpawner : MonoBehaviour
     /// </summary>
     /// <param name="num">怪物数量</param>
     /// <returns></returns>
-    private IEnumerator SpawnEnemies(int num)
+    private IEnumerator SpawnEnemies(MonsterConfig config)
     {
         //while (true)
         //{
         //    SpawnEnemy();
         //    yield return new WaitForSeconds(spawnInterval); // 等待指定的时间
         //}
-        for(int i = 0;i < num; i++)
+        Debug.Log("怪物数量-----" + config.Num);
+        for(int i = 0;i < config.Num; i++)
         {
-            SpawnEnemy();
+            SpawnEnemy(config);
             yield return new WaitForSeconds(spawnInterval); // 等待指定的时间
         }
     }
     /// <summary>
     /// 创建每一个怪物
     /// </summary>
-    private void SpawnEnemy()
+    private void SpawnEnemy(MonsterConfig config)
     {
         if (enemyPrefab != null && spawnPoint != null)
         {
             GameObject monster = Instantiate(enemyPrefab, spawnPoint.transform);
             monster.transform.position = new Vector3(waypoints[0].position.x, waypoints[0].position.y, waypoints[0].position.z);
             Monster m = monster.GetComponent<Monster>();
-            m.setWaypoints(waypoints);
+            m.SetMonsterInfo(config, waypoints);
             monsters.Add(m);
             GameController.instance.uiGame.updateMonsterInfo(monsters.Count);
+            if(monsters.Count >= 60)
+            {
+                GameController.instance.GameOver();
+            }
         }
         else
         {
@@ -146,6 +161,25 @@ public class MonsterSpawner : MonoBehaviour
                 {
                     nearbyMonsters.Add(monster);
                 }
+            }
+        }
+        return nearbyMonsters;
+    }
+    /// <summary>
+    /// 获取范围内敌人
+    /// </summary>
+    /// <param name="transform"></param>
+    /// <param name="radius"></param>
+    /// <returns></returns>
+    public List<Monster> GetNearbyEnemyInRadius(Transform transform, float radius)
+    {
+        List<Monster> nearbyMonsters = new List<Monster>();
+        foreach (Monster monster in monsters)
+        {
+            float distance = Vector3.Distance(transform.position, monster.transform.position);
+            if (distance <= radius)
+            {
+                nearbyMonsters.Add(monster);
             }
         }
         return nearbyMonsters;

@@ -21,6 +21,7 @@ partial class UIConfigs
     public static UIConfig UIGame = new UIConfig() { IsSigngle = true, Layer = UILayer.Hidden, Path = "Assets/Res/Game/Prefab/UIGame.prefab" };
     public static UIConfig UIJoystick = new UIConfig() { IsSigngle = true, Layer = UILayer.Hidden, Path = "Assets/Res/Game/Prefab/UIJoystick.prefab" };
     public static UIConfig UILeqent = new UIConfig() { IsSigngle = true, Layer = UILayer.Hidden, Path = "Assets/Res/Game/Prefab/UILeqent.prefab" };
+    public static UIConfig UIGameOver = new UIConfig() { IsSigngle = true, Layer = UILayer.Hidden, Path = "Assets/Res/Game/Prefab/UIGameOver.prefab" };
 
     public static UIConfig UIComTip = new UIConfig() { IsSigngle = false, Layer = UILayer.Mid, Path = "Assets/Res/Prefab/UI/UIComTip.prefab" };
 

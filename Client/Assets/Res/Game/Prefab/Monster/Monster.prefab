@@ -417,6 +417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec67223e2a4161c428a726bda0e20b01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skin: {fileID: 0}
+  skin: {fileID: 944678974055086429}
   trigger: {fileID: 0}
   state: {fileID: 8548054149171496829}

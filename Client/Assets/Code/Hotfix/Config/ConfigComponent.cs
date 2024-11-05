@@ -37,11 +37,14 @@ public class ConfigComponent
     public List<HeroConfig> heroConfigs = new List<HeroConfig>();
     public List<HeroSkillConfig> heroSkillConfigs = new List<HeroSkillConfig>();
     public List<HeroBuffConfig> heroBuffConfigs = new List<HeroBuffConfig>();
+
+    public List<TrapConfig> trapConfigs = new List<TrapConfig>();
+    public List<TrapSkillConfig> trapSkillConfigs = new List<TrapSkillConfig>();
     public async Task LoadConfigs()
     {
         Log.Debug("LoadConfigs ---------------------");
-        string[] ts = new string[14] { "MapConfig", "LevelConfig", "LevelMonsterConfig", "MonsterConfig" , "PlayerConfig",
-        "SkillConfig","SkillBranchConfig","SkillBranchLevelConfig","ItemConfig","ActivityConfig","SignIn7Config","HeroConfig","HeroSkillConfig","HeroBuffConfig"};
+        string[] ts = new string[16] { "MapConfig", "LevelConfig", "LevelMonsterConfig", "MonsterConfig" , "PlayerConfig",
+        "SkillConfig","SkillBranchConfig","SkillBranchLevelConfig","ItemConfig","ActivityConfig","SignIn7Config","HeroConfig","HeroSkillConfig","HeroBuffConfig","TrapConfig","TrapSkillConfig"};
         for (int i = 0; i < ts.Length; i++)
         {
             string t = ts[i];
@@ -120,7 +123,16 @@ public class ConfigComponent
                         heroBuffConfigs = JsonConvert.DeserializeObject<List<HeroBuffConfig>>(tx.text);
                         break;
                     }
-
+                case "TrapConfig":
+                    {
+                        trapConfigs = JsonConvert.DeserializeObject<List<TrapConfig>>(tx.text);
+                        break;
+                    }
+                case "TrapSkillConfig":
+                    {
+                        trapSkillConfigs = JsonConvert.DeserializeObject<List<TrapSkillConfig>>(tx.text);
+                        break;
+                    }
             }
         }
     }

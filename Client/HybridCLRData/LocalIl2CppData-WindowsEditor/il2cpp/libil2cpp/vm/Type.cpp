@@ -19,6 +19,7 @@
 #include "vm/Reflection.h"
 #include "vm/String.h"
 #include "vm/Type.h"
+#include "vm/GlobalMetadata.h"
 #include "vm-utils/VmStringUtils.h"
 #include "il2cpp-class-internals.h"
 #include "il2cpp-object-internals.h"
@@ -1061,15 +1062,27 @@ namespace vm
 
     const Il2CppType* Type::GetUnderlyingType(const Il2CppType *type)
     {
-        if (type->type == IL2CPP_TYPE_VALUETYPE && !type->byref && MetadataCache::GetTypeInfoFromType(type)->enumtype)
-            return Class::GetEnumBaseType(MetadataCache::GetTypeInfoFromType(type));
-        if (IsGenericInstance(type))
+        if (type->byref)
         {
-            Il2CppClass* definition = GenericClass::GetTypeDefinition(type->data.generic_class);
-            if (definition != NULL && definition->enumtype && !type->byref)
-                return Class::GetEnumBaseType(definition);
+            return type;
         }
-        return type;
+
+        if (!IsEnum(type))
+        {
+            return type;
+        }
+
+        const Il2CppTypeDefinition* typeDef;
+        if (type->type == IL2CPP_TYPE_VALUETYPE)
+        {
+            typeDef = (const Il2CppTypeDefinition*)type->data.typeHandle;
+        }
+        else
+        {
+            IL2CPP_ASSERT(type->type == IL2CPP_TYPE_GENERICINST);
+            typeDef = (const Il2CppTypeDefinition*)type->data.generic_class->type->data.typeHandle;
+        }
+        return il2cpp::vm::GlobalMetadata::GetIl2CppTypeFromIndex(typeDef->elementTypeIndex);
     }
 
     bool Type::IsGenericInstance(const Il2CppType* type)
@@ -1178,16 +1191,17 @@ namespace vm
         if (type->byref)
             return false;
 
-        if (type->type == IL2CPP_TYPE_VALUETYPE && !MetadataCache::GetTypeInfoFromType(type)->enumtype)
-            return true;
-
         if (type->type == IL2CPP_TYPE_TYPEDBYREF)
             return true;
 
-        if (IsGenericInstance(type) &&
-            GenericClass::IsValueType(type->data.generic_class) &&
-            !GenericClass::IsEnum(type->data.generic_class))
-            return true;
+        if (type->type == IL2CPP_TYPE_VALUETYPE)
+            return !IsEnum(type);
+
+        if (type->type == IL2CPP_TYPE_GENERICINST)
+        {
+            const Il2CppType* genericType = type->data.generic_class->type;
+            return genericType->type == IL2CPP_TYPE_VALUETYPE && !IsEnum(genericType);
+        }
 
         return false;
     }
@@ -1233,11 +1247,16 @@ namespace vm
 
     bool Type::IsEnum(const Il2CppType *type)
     {
-        if (type->type != IL2CPP_TYPE_VALUETYPE)
-            return false;
-
-        Il2CppClass* klass = GetClass(type);
-        return klass->enumtype;
+        if (type->type == IL2CPP_TYPE_VALUETYPE)
+        {
+            const Il2CppTypeDefinition* typeDefinition = (const Il2CppTypeDefinition*)type->data.typeHandle;
+            return (typeDefinition->bitfield >> (kBitIsEnum - 1)) & 0x1;
+        }
+        if (type->type == IL2CPP_TYPE_GENERICINST)
+        {
+            return IsEnum(type->data.generic_class->type);
+        }
+        return false;
     }
 
     bool Type::IsValueType(const Il2CppType *type)

@@ -27,8 +27,10 @@ public class Init : MonoBehaviour
     {
         Application.runInBackground = true;
         DontDestroyOnLoad(this.gameObject);
+        Log.Debug("-------------初始化");
+
         // 加载assembly对应的dll，会自动为它hook。一旦aot泛型函数的native函数不存在，用解释器版本代码
-        LoadImageErrorCode err = RuntimeApi.LoadMetadataForAOTAssembly(mscorlib.bytes, HomologousImageMode.SuperSet);
+        LoadImageErrorCode err = HybridCLR.RuntimeApi.LoadMetadataForAOTAssembly(mscorlib.bytes, HomologousImageMode.SuperSet);
         Debug.Log($"LoadMetadataForAOTAssembly:mscorlib. mode:{HomologousImageMode.SuperSet} ret:{err}");
 
         Launcher();

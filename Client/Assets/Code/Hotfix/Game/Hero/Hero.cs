@@ -26,6 +26,7 @@ public class Hero : MonoBehaviour
     {
         config = c;
         attackConfig = ConfigComponent.Instance.heroSkillConfigs.Find(p => p.Id == config.Attack);
+        fireRate = attackConfig.Cd;
         SetBulletPrefab();
     }
 

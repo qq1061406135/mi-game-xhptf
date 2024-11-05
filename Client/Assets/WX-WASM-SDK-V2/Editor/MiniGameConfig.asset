@@ -15,11 +15,11 @@ MonoBehaviour:
   ProjectConf:
     projectName: roguelike
     Appid: wx0b4da806ea94d703
-    CDN: http://127.0.0.1:3000
+    CDN: http://47.116.2.196/game/xhq/1.0.0
     assetLoadType: 0
     compressDataPackage: 0
     VideoUrl: 
-    DST: D:/git/MiGameTF/WeChatMiGame
+    DST: D:/Unity/Project/Build/WeChatMiGame
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;
