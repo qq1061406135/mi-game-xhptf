@@ -79,7 +79,7 @@ public class UILogin : UILayerBase
 
     public void OnTripleTownClick()
     {
-        GameEntry.UI.Open<UITripleTown>(UIConfigs.UITripleTown);
+        //GameEntry.UI.Open<UITripleTown>(UIConfigs.UITripleTown);
 
     }
 }

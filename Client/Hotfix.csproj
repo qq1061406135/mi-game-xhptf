@@ -67,7 +67,6 @@
     <Compile Include="Assets\Code\Hotfix\Game\BooleanManager.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Trap\Trap.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Config\SkillBranchLevelConfig.cs" />
-    <Compile Include="Assets\Code\Hotfix\Game\TripleTown\ColorGemCom.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\GameScene.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\UnitManager.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Config\MapConfig.cs" />
@@ -88,7 +87,6 @@
     <Compile Include="Assets\Code\Hotfix\Game\UI\UIItemInfo.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\UI\UIRegister.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Player\BoltSHooter.cs" />
-    <Compile Include="Assets\Code\Hotfix\Game\TripleTown\GameGemCom.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Hero\Hero.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\UI\UIGame.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Config\TrapSkillConfig.cs" />
@@ -106,7 +104,6 @@
     <Compile Include="Assets\Code\Hotfix\Config\ConfigComponent.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Config\LevelConfig.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Player\PlayerWeaponComponent.cs" />
-    <Compile Include="Assets\Code\Hotfix\Game\TripleTown\UITripleTown.cs" />
     <Compile Include="Assets\Code\Hotfix\Camera\MainCameraComponent.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Config\HeroBuffConfig.cs" />
     <Compile Include="Assets\Code\Hotfix\Camera\OverlayCamera.cs" />
@@ -146,11 +143,8 @@
     <Compile Include="Assets\Code\Hotfix\Game\Data\UserData.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Config\HeroConfig.cs" />
     <Compile Include="Assets\Code\Hotfix\UI\ButtonCom.cs" />
-    <Compile Include="Assets\Code\Hotfix\Game\TripleTown\ClearGemCom.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\GameController.cs" />
-    <Compile Include="Assets\Code\Hotfix\Game\TripleTown\MoveGemCom.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Unit\SwordMovement.cs" />
-    <Compile Include="Assets\Code\Hotfix\Game\TripleTown\PlaneCom.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\NetManager.cs" />
     <Compile Include="Assets\Code\Hotfix\UI\UIComponent.cs" />
     <Compile Include="Assets\Code\Hotfix\Game\Player\Weapon.cs" />
@@ -865,11 +859,11 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="YooAsset">
       <HintPath>Library\ScriptAssemblies\YooAsset.dll</HintPath>
